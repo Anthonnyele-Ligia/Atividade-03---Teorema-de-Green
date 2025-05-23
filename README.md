@@ -1,23 +1,22 @@
-🎞️ Animação de uma Epicicloide com Matplotlib
-Este repositório contém um script em Python que gera uma animação ilustrando a formação de uma epicicloide — a curva gerada por um ponto fixo em uma circunferência menor que rola externamente sobre uma circunferência maior.
+🎥 Animação de uma Epicicloide com Python e Matplotlib
+Este repositório contém um script em Python que cria uma animação interativa ilustrando a formação de uma epicicloide — a curva traçada por um ponto fixo em uma circunferência menor que rola externamente ao redor de uma circunferência maior.
 
-🔧 Tecnologias Utilizadas
-Python
+🔍 Visão Geral
+A animação mostra:
 
-NumPy
+A circunferência maior fixa, usada como base.
 
-Matplotlib (com módulo de animação)
+Uma circunferência menor que rola sobre a maior.
 
-📐 Parâmetros do Modelo
-R = 4: Raio da circunferência maior (fixa)
+Um ponto fixo na circunferência menor que desenha a curva ao longo do tempo.
 
-r = 1: Raio da circunferência menor (rolante)
+Elementos visuais como grades, legendas, título e cores para facilitar a compreensão.
 
-A epicicloide é traçada conforme a menor roda externamente à maior, com o ponto fixo descrevendo a curva.
+É uma ferramenta didática ideal para explorar conceitos de geometria, movimento circular e visualização de curvas paramétricas.
 
-✨ Funcionalidades
-Animação da formação da epicicloide em tempo real
+🛠️ Tecnologias Utilizadas
+Python 3.x
 
-Exibição da circunferência maior e da menor em movimento
+NumPy – para cálculos matemáticos
 
-Indicação visual do centro da circunferência menor e do ponto gerador da curva
+Matplotlib – para visualização e animação
